@@ -1,0 +1,9 @@
+p = int(input())
+step = 0
+position = 0
+
+while position < p:
+    step += 1
+    position += step
+
+print(step)
